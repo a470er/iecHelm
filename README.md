@@ -1,10 +1,22 @@
 # iecHelm
 iida-eye-clinic Helm FM project
 
----
-title: Order example
----
+```mermaid
 erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+
+  users ||--o{ articles: ""
+
+  users {
+    string name
+    string email
+    integer age
+  }
+
+  articles {
+    string title
+    text text
+  }
+
+```
+
+

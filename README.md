@@ -119,13 +119,14 @@ Exm_VisualAcuity_Summary {
 	Txt VASummaryTitle "眼鏡用など"
 	Txt authorName
 	Cal visualAcuitySummary
-	Txt isTypicalValue "その日の代表検査値"
+	Txt isTypicalValue "その日の代表検査値?"
 	TS  created_at
 	TS  modified_at
 	TS  discarded_at
 	Txt created_by
 	Txt modified_by
 	Txt discarded_by
+	Txt isActive "default True"
 }
 Exm_VisualAcuity {
 	Txt k PK
@@ -141,6 +142,7 @@ Exm_VisualAcuity {
 	Txt cylindricalD
 	Txt axis
 	Txt comment "+3Dから雲霧など"
+	Txt isTypicalValue "その日の代表検査値"
 	TS  created_at
 	TS  modified_at
 	Txt created_by

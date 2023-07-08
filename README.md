@@ -1,5 +1,4 @@
--  検査はcomposite foreign key examClassと_fkを組み合わせて複数の検査テーブルに繋ぐ？
-- 検査のクラス継承概念？
+ER図　工事中。。。
 ```mermaid
 erDiagram
 
